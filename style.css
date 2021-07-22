@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('5.jpg') no-repeat center fixed ;
+    background-size: cover;
+}
+
+.containar{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: absolute;
+    top: 5%;
+    left: 5%
+}
+
+.containar h1{
+    margin: 15px 0px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgb(0, 81, 255);
+}
+
+.box{
+    width: 90%;
+    padding: 10px 0px;
+    border-bottom: 2px solid rgb(0, 225, 255);
+    margin-bottom: 15px;
+}
+
+.box input{
+    width: 80%;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 20px;
+}
+
+.btn{
+    color: white;
+    background: none;
+    outline: none;
+    border: 2px solid rgb(52, 113, 226);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    padding: 11px;
+}
